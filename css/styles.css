@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --pink-color: #F03C42;
+    --white-color: #fff;
+    --blue-color: #222374;
+    --grey-color: #CCCCCC;
+    --black-color: #000000;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    background-color: var(--pink-color);
+    color: var(--white-color);
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header h1 {
+    font-size: 18px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content a {
+    font-size: 14px;
+}
+
+.header-content img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#our-space {
+    background-color: var(--blue-color);
+    padding-bottom: 40px;
+}
+
+#our-space h2 {
+    font-size: 32px;
+    color: var(--white-color);
+    padding: 20px 0px;
+}
+
+.fitness-card {
+    background-color: var(--grey-color);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.fitness-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.fitness-content {
+    padding: 20px;
+}
+
+.container-modalities {
+    padding: 20px 0px;
+}
+
+.container-modalities h2 {
+    font-size: 32px;
+    color: var(--pink-color);
+    margin-bottom: 40px;
+}
+
+.modalities-card {
+    background-color: var(--blue-color);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.modalities-card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.modalities-card p {
+    font-size: 14px;
+    color: var(--grey-color);
+}
+
+footer {
+    background-color: var(--black-color);
+    height: 252px;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+}
+
+.icones {
+    margin-bottom: 30px;
+}
+
+.icones img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.icones div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-container a {
+    font-size: 14px;
+}
+
+.icones-container p {
+    font-size: 14px;
+}
+
+.icones-container address {
+    font-size: 14px;
+}
+
+.generic-padding {
+    padding: 0px 20px;
+}
